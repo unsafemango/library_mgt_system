@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" >
+<link href="<c:url value="/resources/css/main.css"></c:url>" rel="stylesheet" >
 <title>Library Application</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
 	<a href="viewborrower">View Borrowers</a>
 	<br><br>
 	
-	<img src="${pageContext.request.contextPath}/resources/img/klein.jpg">
+	<img src="<c:url value="/resources/img/klein.jpg"></c:url>" width="300px" alt="image of amon">
 	
 </body>
 </html>
